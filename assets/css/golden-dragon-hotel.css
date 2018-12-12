@@ -1,6 +1,7 @@
 
 .body-bg {
 	/* background-color: #665700 */;
+	/* background-image: url('../images/body-bg/gold.jpeg'); */
 }
 
 .navbar{
@@ -11,9 +12,9 @@
 }
 
 
-#co-name-custom{
+.company-name-home{
 	color: gold;
-	font-size: 3em;
+	font-family: 'Anton', sans-serif;
 }
 
 .nav-text-custom{
@@ -63,6 +64,7 @@
 	left: 50%;
 	transform: translateX(-50%);
 	padding: 0 0 5% 0;
+	background-color: gold;
 
 }
 
@@ -78,6 +80,7 @@
 	padding: 0 5%;
 	margin-top: 2%;
 
+
 }
 footer{
 
@@ -85,6 +88,32 @@ footer{
 	background-color: black;
 	color: gold;
 	text-align: center;
+}
+
+/*About Us Styles*/
+
+.about-us-head{
+	background-color: 
+	black; color: gold;
+}
+
+.mission-content-wrapper{
+	margin: 2% 0;
+}
+
+.fas-about-us{
+	font-size: 6em; 
+	color: gold
+}
+
+.vision-content-wrapper{
+	margin: 2% 0;
+
+}
+
+.about-us-tail{
+	background-color: black; 
+	color: gold;
 }
 
 /*Gallery Styles*/
@@ -128,4 +157,58 @@ footer{
 	padding:2%;
 
 }
+
+
+/*landing page styles*/
+
+.body-bg-landingpage{
+	background-color: black;
+	/* background-image: url('../images/logo/logo2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; */
+
+}
+
+#landing-page-bg-custom{
+	
+	/* background-color: blue; */
+	color: gold;
+
+}
+
+.logo-box{
+	margin: 4% 0;
+}
+
+#landing-page-btn-box{
+	width: 30%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	border: 3px solid gold;
+	margin-top: 4%;
+	text-decoration: none;
+
+}
+
+#landing-page-btn{
+	text-decoration: none;
+	color: gold;
+
+
+
+}
+
+#landing-page-btn-box:hover {
+	text-decoration: none;
+	background-color: gold;
+	color: black;
+		
+}
+
+#landing-page-btn:hover {
+	text-decoration: none;
+	color: black;
+
 
