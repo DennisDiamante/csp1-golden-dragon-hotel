@@ -1,8 +1,5 @@
 
-.body-bg {
-	/* background-color: #665700 */;
-	/* background-image: url('../images/body-bg/gold.jpeg'); */
-}
+
 
 .navbar{
 	background-color: black;
@@ -23,6 +20,8 @@
 .company-name-home{
 	color: gold;
 	font-family: 'Anton', sans-serif;
+	background-color: black;
+	margin-bottom: 0;
 }
 
 .nav-text-custom{
@@ -36,12 +35,6 @@
 }
 
 
-
-/* #active-page{
-	background-color: gold;
-	color: black;
-	font-weight: bold;
-} */
 .container-fluid{
 	margin: 1% 0 1% 0;
 } 
@@ -107,8 +100,8 @@
 	padding: 0 5%;
 	margin-top: 2%;
 
-
 }
+
 footer{
 
 	height: 10vh;
@@ -122,6 +115,11 @@ footer{
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
+}
+
+#footer-anchor{
+	text-decoration: none;
+	color: red;
 }
 
 /*About Us Styles*/
@@ -169,18 +167,15 @@ footer{
 	width: 100%;
 }
 
+.second-row{
+	margin-top: 1%;
+}
+
 
 /*Contact Us Styles*/
 
 .contact-head{
 	margin-bottom: 2%; 
-}
-.map-wrapper{
-	/* border: 2px solid black;
-	padding: 1% 2%;
-	margin-left: 1%;
-	background-color: black */
-
 }
 
 .contact-details-container{
@@ -201,14 +196,13 @@ footer{
 
 #body-bg-landingpage{
 
-	/* background-image: url('../images/logo/logo2.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center; */
 	color: gold;
-	background-color: black;
-	
-	
+	background-color: black;		
+}
+
+.landing-page-head{
+	border:2px gold solid;
+
 }
 
 #landing-page-bg-custom{
